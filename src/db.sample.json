@@ -1,0 +1,24 @@
+{
+   "entries":[
+      {
+         "id":"FROM_LIVE_M6",
+         "ok":"M6_MUSIC",
+         "norights":"UPSCALING",
+         "prospect":"PARCOURS_PROSPECT",
+         "nomsd":"NOMSD",
+         "error":"PARCOURS_PROSPECT"
+      }
+   ],
+   "services":[
+      {
+         "id":"M6_MUSIC",
+         "micro":"RALD_M6",
+         "external":true
+      },
+      {
+         "id":"M7_MUSIC",
+         "micro":"RALD_R7",
+         "external":true
+      }
+   ]
+}
