@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'production',
   module: {
     rules: [{
       test: /\.js$/,
@@ -11,11 +12,11 @@ module.exports = {
             // plugins: ['@babel/plugin-proposal-object-rest-spread']
           }
         },
-        // 'webpack-conditional-loader'
+        'webpack-conditional-loader'
       ]
     }]
   },
   output: {
-    library: 'gw-engine'
+    library: 'gw'
   }
 }
